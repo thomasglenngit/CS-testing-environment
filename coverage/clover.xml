@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1606862234321" clover="3.2.0">
+  <project timestamp="1606862234321" name="All files">
+    <metrics statements="20" coveredstatements="20" conditionals="10" coveredconditionals="10" methods="4" coveredmethods="4" elements="34" coveredelements="34" complexity="0" loc="20" ncloc="20" packages="1" files="2" classes="2"/>
+    <file name="bst-node.js" path="/Users/thomasglenn/Desktop/CompSci/cs-testing-environment/src/bst-node.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="3" count="17" type="stmt"/>
+      <line num="4" count="17" type="stmt"/>
+      <line num="5" count="17" type="stmt"/>
+    </file>
+    <file name="bst.js" path="/Users/thomasglenn/Desktop/CompSci/cs-testing-environment/src/bst.js">
+      <metrics statements="17" coveredstatements="17" conditionals="10" coveredconditionals="10" methods="3" coveredmethods="3"/>
+      <line num="3" count="8" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="10" count="15" type="cond" truecount="2" falsecount="0"/>
+      <line num="11" count="6" type="stmt"/>
+      <line num="13" count="9" type="stmt"/>
+      <line num="14" count="9" type="stmt"/>
+      <line num="15" count="12" type="cond" truecount="2" falsecount="0"/>
+      <line num="16" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="4" type="stmt"/>
+      <line num="18" count="4" type="stmt"/>
+      <line num="20" count="2" type="stmt"/>
+      <line num="22" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="23" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="24" count="4" type="stmt"/>
+      <line num="25" count="4" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
