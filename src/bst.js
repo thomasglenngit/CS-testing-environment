@@ -6,7 +6,8 @@ export default class BST {
   insertNode(node) {
     this.root = node;
   }
-  insert(insertedNode) {
+
+  insert(insertedNode) { 
     if (this.root === null) {
       this.root = insertedNode;
     } else {
@@ -29,6 +30,26 @@ export default class BST {
         }
         else {
           return this;
+        }
+      }
+    } 
+  }
+
+  search(value) {
+    if(this.root.data === value) {
+      return true;
+    } else {
+      let currentNode = this.root;
+      while(true) {
+        if(currentNode.data === value) {
+          return true;
+        } else if (currentNode.data > value) {
+          currentNode = currentNode.left;
+        } else if (currentNode.data < value) {
+          currentNode = currentNode.right;
+        }
+        if (currentNode === null) {
+          return false;
         }
       }
     }
