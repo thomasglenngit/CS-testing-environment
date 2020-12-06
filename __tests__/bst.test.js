@@ -83,20 +83,27 @@ describe('binarySearchTree', () => {
     expect(bst.insert(node2)).toEqual({ "root": { "data": 36, "left": null, "right": null } });
   });
 
-  test('it should return false if the root node is not equal to 31', () => {
-    expect(pbst.search(31)).toEqual(false);
-  });
+  // test('it should return false if the root node is not equal to 31', () => {
+  //   expect(pbst.search(31)).toEqual(false);
+  // });
 
-  test('it should return true if the first child node on teh left is equal to 2', () => {
-    expect(pbst.search(2)).toEqual(true);
-  });
+  // test('it should return true if the first child node on the left is equal to 2', () => {
+  //   expect(pbst.search(2)).toEqual(true);
+  // });
 
-  test('it should return true if the tree includes 7', () => {
-    expect(pbst.search(7)).toEqual(true);
-  });
+  // test('it should return true if the tree includes 7', () => {
+  //   expect(pbst.search(7)).toEqual(true)
+  // });
 
-  test('it should return true if the tree includes 7', () => {
-    expect(pbst.search(5)).toEqual(true);
-  });
+  // test('it should return true if the tree includes 7', () => {
+  //   expect(pbst.search(5)).toEqual(true);
+  // });
 
+  // test('it should return false if the node doesn\'t exist in the tree', () => {
+  //   expect(pbst.remove(9)).toEqual(false);
+  // })
+
+  test('it should remove a leaf node', () => {
+    expect(pbst.remove(6)).toEqual(null);
+  })
 });
