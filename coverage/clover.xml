@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1607465861287" clover="3.2.0">
-  <project timestamp="1607465861287" name="All files">
-    <metrics statements="64" coveredstatements="40" conditionals="36" coveredconditionals="21" methods="13" coveredmethods="10" elements="113" coveredelements="71" complexity="0" loc="64" ncloc="64" packages="1" files="3" classes="3"/>
+<coverage generated="1607636601913" clover="3.2.0">
+  <project timestamp="1607636601913" name="All files">
+    <metrics statements="74" coveredstatements="50" conditionals="44" coveredconditionals="27" methods="17" coveredmethods="14" elements="135" coveredelements="91" complexity="0" loc="74" ncloc="74" packages="1" files="3" classes="3"/>
     <file name="bst-node.js" path="/Users/thomasglenn/Desktop/CompSci/cs-testing-environment/src/bst-node.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="3" count="108" type="stmt"/>
@@ -64,16 +64,26 @@
       <line num="90" count="0" type="stmt"/>
     </file>
     <file name="graph.js" path="/Users/thomasglenn/Desktop/CompSci/cs-testing-environment/src/graph.js">
-      <metrics statements="9" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="5"/>
-      <line num="3" count="7" type="stmt"/>
-      <line num="7" count="6" type="stmt"/>
+      <metrics statements="19" coveredstatements="18" conditionals="10" coveredconditionals="8" methods="10" coveredmethods="9"/>
+      <line num="3" count="10" type="stmt"/>
+      <line num="7" count="19" type="stmt"/>
       <line num="11" count="0" type="stmt"/>
-      <line num="15" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="3" type="cond" truecount="2" falsecount="0"/>
       <line num="16" count="1" type="stmt"/>
-      <line num="18" count="1" type="stmt"/>
-      <line num="22" count="1" type="stmt"/>
-      <line num="23" count="1" type="stmt"/>
-      <line num="27" count="2" type="stmt"/>
+      <line num="18" count="2" type="stmt"/>
+      <line num="22" count="11" type="stmt"/>
+      <line num="23" count="11" type="stmt"/>
+      <line num="27" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="30" count="4" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="35" count="1" type="stmt"/>
+      <line num="39" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="40" count="1" type="stmt"/>
+      <line num="41" count="2" type="stmt"/>
+      <line num="43" count="1" type="stmt"/>
+      <line num="48" count="2" type="cond" truecount="3" falsecount="1"/>
+      <line num="49" count="2" type="stmt"/>
     </file>
   </project>
 </coverage>
