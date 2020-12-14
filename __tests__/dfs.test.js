@@ -30,4 +30,5 @@ describe('depth-first search', () => {
   test('should check if the first friend in the adjacency list is reachable', () => {
     expect(graph.depthFirstReachable("Jasmine", "Ada")).toEqual(true);
   });
+
 });

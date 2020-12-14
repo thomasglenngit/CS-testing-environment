@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1607636601913" clover="3.2.0">
-  <project timestamp="1607636601913" name="All files">
-    <metrics statements="74" coveredstatements="50" conditionals="44" coveredconditionals="27" methods="17" coveredmethods="14" elements="135" coveredelements="91" complexity="0" loc="74" ncloc="74" packages="1" files="3" classes="3"/>
+<coverage generated="1607979259436" clover="3.2.0">
+  <project timestamp="1607979259436" name="All files">
+    <metrics statements="87" coveredstatements="61" conditionals="52" coveredconditionals="32" methods="19" coveredmethods="15" elements="158" coveredelements="108" complexity="0" loc="87" ncloc="87" packages="1" files="3" classes="3"/>
     <file name="bst-node.js" path="/Users/thomasglenn/Desktop/CompSci/cs-testing-environment/src/bst-node.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="3" count="108" type="stmt"/>
@@ -64,7 +64,7 @@
       <line num="90" count="0" type="stmt"/>
     </file>
     <file name="graph.js" path="/Users/thomasglenn/Desktop/CompSci/cs-testing-environment/src/graph.js">
-      <metrics statements="19" coveredstatements="18" conditionals="10" coveredconditionals="8" methods="10" coveredmethods="9"/>
+      <metrics statements="32" coveredstatements="29" conditionals="18" coveredconditionals="13" methods="12" coveredmethods="10"/>
       <line num="3" count="10" type="stmt"/>
       <line num="7" count="19" type="stmt"/>
       <line num="11" count="0" type="stmt"/>
@@ -82,8 +82,21 @@
       <line num="40" count="1" type="stmt"/>
       <line num="41" count="2" type="stmt"/>
       <line num="43" count="1" type="stmt"/>
-      <line num="48" count="2" type="cond" truecount="3" falsecount="1"/>
-      <line num="49" count="2" type="stmt"/>
+      <line num="48" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="49" count="0" type="stmt"/>
+      <line num="54" count="3" type="cond" truecount="4" falsecount="0"/>
+      <line num="55" count="2" type="stmt"/>
+      <line num="57" count="1" type="stmt"/>
+      <line num="58" count="1" type="stmt"/>
+      <line num="59" count="1" type="stmt"/>
+      <line num="60" count="5" type="stmt"/>
+      <line num="61" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="62" count="1" type="stmt"/>
+      <line num="64" count="4" type="stmt"/>
+      <line num="65" count="4" type="stmt"/>
+      <line num="66" count="4" type="stmt"/>
+      <line num="67" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="68" count="5" type="stmt"/>
     </file>
   </project>
 </coverage>
